@@ -1,0 +1,75 @@
+[Node1] 2025-09-04 01:17:36,815 - Iniciando nó na porta 8001
+[Node1] 2025-09-04 01:17:36,821 - Nó Node1 rodando em localhost:8001
+[Node1] 2025-09-04 01:17:37,326 - Iniciando nó na porta 8002
+[Node1] 2025-09-04 01:17:37,327 - Nó Node2 rodando em localhost:8002
+[Node1] 2025-09-04 01:17:37,831 - Iniciando nó na porta 8003
+[Node1] 2025-09-04 01:17:37,832 - Nó Node3 rodando em localhost:8003
+[Node1] 2025-09-04 01:17:59,043 - Login bem-sucedido: admin
+[Node1] 2025-09-04 01:18:17,992 - Nova mensagem de admin: Olá senhores
+[Node1] 2025-09-04 01:18:18,008 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 01:18:18,009 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 01:18:51,162 - Login bem-sucedido: user1
+[Node1] 2025-09-04 01:19:19,035 - Login bem-sucedido: user1
+[Node1] 2025-09-04 01:19:33,165 - Nova mensagem de user1: olá a todos os presentes
+[Node1] 2025-09-04 01:19:33,167 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 01:19:33,169 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 01:34:33,600 - Servidor Node1 iniciado na porta 8001 (INATIVO)
+[Node1] 2025-09-04 01:34:34,108 - Servidor Node2 iniciado na porta 8002 (INATIVO)
+[Node1] 2025-09-04 01:34:34,611 - Servidor Node3 iniciado na porta 8003 (INATIVO)
+[Node1] 2025-09-04 01:35:21,182 - Nó Node1 ATIVADO por admin
+[Node1] 2025-09-04 01:35:21,183 - Login bem-sucedido: admin
+[Node1] 2025-09-04 01:35:43,358 - Nova mensagem de admin: olá mundo e a todos que habitam ele
+[Node1] 2025-09-04 01:36:09,006 - Nó Node3 ATIVADO por test
+[Node1] 2025-09-04 01:36:09,006 - Login bem-sucedido: test
+[Node1] 2025-09-04 01:36:11,256 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 01:36:37,901 - Nova mensagem de test: ola muleke
+[Node1] 2025-09-04 01:36:37,905 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 01:37:19,883 - Nova mensagem de test: ola ainda esta ai?
+[Node1] 2025-09-04 01:37:49,311 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 01:42:55,689 - Nó Node1 parado
+[Node1] 2025-09-04 01:42:55,698 - Nó Node2 parado
+[Node1] 2025-09-04 01:42:55,699 - Nó Node3 parado
+[Node1] 2025-09-04 01:43:06,072 - Servidor Node1 iniciado na porta 8001 (INATIVO)
+[Node1] 2025-09-04 01:43:06,581 - Servidor Node2 iniciado na porta 8002 (INATIVO)
+[Node1] 2025-09-04 01:43:07,085 - Servidor Node3 iniciado na porta 8003 (INATIVO)
+[Node1] 2025-09-04 01:43:21,533 - Nó Node2 ATIVADO por test
+[Node1] 2025-09-04 01:43:21,533 - Login bem-sucedido: test
+[Node1] 2025-09-04 01:52:40,454 - Servidor Node1 iniciado na porta 8001 (INATIVO)
+[Node1] 2025-09-04 01:52:40,969 - Servidor Node2 iniciado na porta 8002 (INATIVO)
+[Node1] 2025-09-04 01:52:41,472 - Servidor Node3 iniciado na porta 8003 (INATIVO)
+[Node1] 2025-09-04 01:53:12,683 - Nó Node1 ATIVADO por test
+[Node1] 2025-09-04 01:53:12,684 - Login bem-sucedido: test
+[Node1] 2025-09-04 01:53:21,732 - Nova mensagem de test: ola mundo
+[Node1] 2025-09-04 01:53:30,154 - Nova mensagem de test: portask
+[Node1] 2025-09-04 02:00:49,534 - Servidor Node1 iniciado na porta 8001 (INATIVO)
+[Node1] 2025-09-04 02:00:50,043 - Servidor Node2 iniciado na porta 8002 (INATIVO)
+[Node1] 2025-09-04 02:00:50,546 - Servidor Node3 iniciado na porta 8003 (INATIVO)
+[Node1] 2025-09-04 02:01:29,756 - Nó Node2 ATIVADO por user1
+[Node1] 2025-09-04 02:01:29,758 - Login bem-sucedido: user1
+[Node1] 2025-09-04 02:01:33,820 - Nova mensagem de user1: asasdas
+[Node1] 2025-09-04 02:01:42,660 - Nó Node1 ATIVADO por test
+[Node1] 2025-09-04 02:01:42,661 - Login bem-sucedido: test
+[Node1] 2025-09-04 02:01:44,795 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:01:54,504 - Nova mensagem de user1: asijdaoisjd
+[Node1] 2025-09-04 02:01:54,536 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:02:17,750 - Nó Node3 ATIVADO por user2
+[Node1] 2025-09-04 02:02:17,751 - Login bem-sucedido: user2
+[Node1] 2025-09-04 02:02:17,760 - Sincronizado 2 novas mensagens
+[Node1] 2025-09-04 02:02:28,968 - Nova mensagem de user1: asasdas asopdkasod
+[Node1] 2025-09-04 02:02:28,999 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:02:29,507 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:02:50,264 - Nova mensagem de user2: asdjasiodj
+[Node1] 2025-09-04 02:02:50,270 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:02:50,777 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:02:54,706 - Nova mensagem de user2: aopskdaoisjdaweoi
+[Node1] 2025-09-04 02:02:54,709 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:02:55,215 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:03:08,709 - Nova mensagem de test: asoijdaosifhas
+[Node1] 2025-09-04 02:03:08,729 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:03:09,257 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:04:17,171 - Nova mensagem de user1: 0299asdj
+[Node1] 2025-09-04 02:04:17,193 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:04:45,562 - Sincronizado 1 novas mensagens
+[Node1] 2025-09-04 02:05:10,332 - Nó Node1 parado
+[Node1] 2025-09-04 02:05:10,334 - Nó Node2 parado
+[Node1] 2025-09-04 02:05:10,335 - Nó Node3 parado
