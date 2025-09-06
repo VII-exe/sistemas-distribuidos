@@ -73,3 +73,14 @@
 [Node1] 2025-09-04 02:05:10,332 - Nó Node1 parado
 [Node1] 2025-09-04 02:05:10,334 - Nó Node2 parado
 [Node1] 2025-09-04 02:05:10,335 - Nó Node3 parado
+[Node1] 2025-09-06 12:33:07,732 - Servidor Node1 iniciado na porta 8001 (INATIVO)
+[Node1] 2025-09-06 12:33:08,252 - Servidor Node2 iniciado na porta 8002 (INATIVO)
+[Node1] 2025-09-06 12:33:08,757 - Servidor Node3 iniciado na porta 8003 (INATIVO)
+[Node1] 2025-09-06 12:34:13,366 - Nó Node1 ATIVADO por admin
+[Node1] 2025-09-06 12:34:13,368 - Login bem-sucedido: admin
+[Node1] 2025-09-06 12:44:39,734 - Nó Node1 parado
+[Node1] 2025-09-06 12:44:39,740 - Nó Node2 parado
+[Node1] 2025-09-06 12:44:39,741 - Nó Node3 parado
+[Node1] 2025-09-06 12:44:43,319 - Servidor Node1 iniciado na porta 8001 (INATIVO)
+[Node1] 2025-09-06 12:44:43,828 - Servidor Node2 iniciado na porta 8002 (INATIVO)
+[Node1] 2025-09-06 12:44:44,332 - Servidor Node3 iniciado na porta 8003 (INATIVO)
