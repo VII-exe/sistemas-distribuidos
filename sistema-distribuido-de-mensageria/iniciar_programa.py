@@ -132,9 +132,14 @@ def main():
         
         # 6. Mostrar informações do sistema
         print("\n📋 SISTEMA ATIVO:")
-        print("   🖥️  Node1: localhost:8001")
-        print("   🖥️  Node2: localhost:8002") 
-        print("   🖥️  Node3: localhost:8003")
+        print("   🖥️  Node1: TCP localhost:8001 | HTTP localhost:9001")
+        print("   🖥️  Node2: TCP localhost:8002 | HTTP localhost:9002") 
+        print("   🖥️  Node3: TCP localhost:8003 | HTTP localhost:9003")
+        
+        print("\n🌐 INTERFACE WEB:")
+        print("   🎯 Node1: http://localhost:9001")
+        print("   🎯 Node2: http://localhost:9002")
+        print("   🎯 Node3: http://localhost:9003")
         
         print("\n🔐 USUÁRIOS DISPONÍVEIS:")
         print("   👤 admin/admin123")
@@ -144,17 +149,13 @@ def main():
         
         if client_opened:
             print("\n💡 COMO USAR:")
-            print("   1. Use a janela do CLIENTE que abriu")
-            print("   2. Faça login: login admin admin123")
-            print("   3. Envie mensagens: post Olá mundo!")
-            print("   4. Leia mensagens: read")
-            print("   5. Troque de nó: node 8002")
-            print("   6. Simule falhas: simulate")
+            print("   🖥️  TERMINAL: Use a janela do CLIENTE que abriu")
+            print("   🌐 WEB: Acesse http://localhost:9001 no navegador")
+            print("   📱 MOBILE: A interface web é responsiva")
         else:
             print("\n💡 PARA USAR O SISTEMA:")
-            print("   1. Abra outro terminal")
-            print("   2. Execute: python client/client.py")
-            print("   3. Faça login e comece a usar!")
+            print("   🖥️  TERMINAL: Execute python client/client.py")
+            print("   🌐 WEB: Acesse http://localhost:9001 no navegador")
         
         print("\n🔄 FUNCIONALIDADES ATIVAS:")
         print("   ✅ Replicação automática entre nós")
@@ -199,7 +200,7 @@ def main():
                 node.stop()
     
     finally:
-        print("\n👋 Obrigado por usar o Sistema Distribuido de Mensageria!")
+        print("\n👋 Obrigado por usar o Sistema de Mensagens Distribuídas!")
         input("Pressione Enter para finalizar...")
 
 
