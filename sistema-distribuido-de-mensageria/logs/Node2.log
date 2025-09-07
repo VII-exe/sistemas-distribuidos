@@ -445,3 +445,25 @@
 [Node2] 2025-09-06 14:34:35,839 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
 [Node2] 2025-09-06 14:34:39,944 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
 [Node2] 2025-09-06 14:34:54,491 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 17:53:53,115 - INICIANDO: Node2 na porta 8002
+[Node2] 2025-09-06 17:54:44,786 - LOGIN: user2
+[Node2] 2025-09-06 17:54:44,791 - LOGIN OK: user2
+[Node2] 2025-09-06 17:54:50,907 - SIMULAÇÃO: Falha ativada
+[Node2] 2025-09-06 17:54:59,839 - SIMULAÇÃO: Falha desativada
+[Node2] 2025-09-06 17:54:59,840 - RECONECTANDO: Buscando mensagens perdidas...
+[Node2] 2025-09-06 17:54:59,850 - SIMULAÇÃO: Falha ativada
+[Node2] 2025-09-06 17:54:59,904 - SIMULAÇÃO: Falha desativada
+[Node2] 2025-09-06 17:54:59,904 - RECONECTANDO: Buscando mensagens perdidas...
+[Node2] 2025-09-06 17:55:00,139 - SIMULAÇÃO: Falha ativada
+[Node2] 2025-09-06 17:55:15,864 - SIMULAÇÃO: Falha desativada
+[Node2] 2025-09-06 17:55:15,864 - RECONECTANDO: Buscando mensagens perdidas...
+[Node2] 2025-09-06 17:55:15,887 - RECUPERADO: 1 mensagens
+[Node2] 2025-09-06 17:55:25,210 - SYNC: 1 mensagens recebidas
+[Node2] 2025-09-06 17:55:30,337 - SIMULAÇÃO: Falha ativada
+[Node2] 2025-09-06 17:55:44,340 - SIMULAÇÃO: Falha desativada
+[Node2] 2025-09-06 17:55:44,340 - RECONECTANDO: Buscando mensagens perdidas...
+[Node2] 2025-09-06 17:56:11,478 - SIMULAÇÃO: Falha ativada
+[Node2] 2025-09-06 17:56:26,190 - SIMULAÇÃO: Falha desativada
+[Node2] 2025-09-06 17:56:26,190 - RECONECTANDO: Buscando mensagens perdidas...
+[Node2] 2025-09-06 17:56:26,197 - RECUPERADO: 1 mensagens
+[Node2] 2025-09-06 17:59:42,179 - PARADO: Node2

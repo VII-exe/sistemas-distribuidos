@@ -354,3 +354,14 @@
 [Node1] 2025-09-06 14:34:47,909 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para admin
 [Node1] 2025-09-06 14:34:50,567 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para admin
 [Node1] 2025-09-06 14:34:55,834 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para admin
+[Node1] 2025-09-06 17:53:52,565 - INICIANDO: Node1 na porta 8001
+[Node1] 2025-09-06 17:54:34,469 - LOGIN: user1
+[Node1] 2025-09-06 17:54:34,474 - LOGIN OK: user1
+[Node1] 2025-09-06 17:55:11,535 - MENSAGEM: [user1] sddd
+[Node1] 2025-09-06 17:55:25,203 - MENSAGEM: [user1] afasdsad
+[Node1] 2025-09-06 17:55:36,826 - MENSAGEM: [user1] asfasf
+[Node1] 2025-09-06 17:55:41,451 - SIMULAÇÃO: Falha ativada
+[Node1] 2025-09-06 17:56:06,859 - SIMULAÇÃO: Falha desativada
+[Node1] 2025-09-06 17:56:06,859 - RECONECTANDO: Buscando mensagens perdidas...
+[Node1] 2025-09-06 17:56:20,842 - MENSAGEM: [user1] asdasd
+[Node1] 2025-09-06 17:59:41,672 - PARADO: Node1
