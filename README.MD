@@ -251,7 +251,7 @@ taskkill /f /pid <PID>
 2. Reiniciar todos os nós
 3. Testar com apenas 2 nós primeiro
 
-## 🏗️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3.8+** - Linguagem principal
 - **Socket TCP** - Comunicação entre nós
@@ -285,7 +285,7 @@ taskkill /f /pid <PID>
 - [x] Sistema de status em tempo real
 - [x] Prevenção de login duplicado
 
-## 👥 Autores
+## Autores
 
 - **Aluno:** Vinicius X. e Kleberson J.
 - **Disciplina:** Sistemas Distribuídos
