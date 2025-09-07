@@ -365,3 +365,12 @@
 [Node1] 2025-09-06 17:56:06,859 - RECONECTANDO: Buscando mensagens perdidas...
 [Node1] 2025-09-06 17:56:20,842 - MENSAGEM: [user1] asdasd
 [Node1] 2025-09-06 17:59:41,672 - PARADO: Node1
+[Node1] 2025-09-07 12:23:54,775 - INICIANDO: Node1 na porta 8001
+[Node1] 2025-09-07 12:25:08,367 - LOGIN: user1
+[Node1] 2025-09-07 12:25:08,391 - LOGIN OK: user1
+[Node1] 2025-09-07 12:25:12,157 - MENSAGEM: [user1] fsdfsd
+[Node1] 2025-09-07 12:25:35,766 - SYNC: 1 mensagens recebidas
+[Node1] 2025-09-07 12:25:41,229 - SIMULAÇÃO: Falha ativada
+[Node1] 2025-09-07 12:26:08,538 - SIMULAÇÃO: Falha desativada
+[Node1] 2025-09-07 12:26:08,539 - RECONECTANDO: Buscando mensagens perdidas...
+[Node1] 2025-09-07 12:26:08,545 - RECUPERADO: 3 mensagens

@@ -467,3 +467,17 @@
 [Node2] 2025-09-06 17:56:26,190 - RECONECTANDO: Buscando mensagens perdidas...
 [Node2] 2025-09-06 17:56:26,197 - RECUPERADO: 1 mensagens
 [Node2] 2025-09-06 17:59:42,179 - PARADO: Node2
+[Node2] 2025-09-07 12:23:55,392 - INICIANDO: Node2 na porta 8002
+[Node2] 2025-09-07 12:24:11,809 - LOGIN: user2
+[Node2] 2025-09-07 12:24:11,814 - LOGIN OK: user2
+[Node2] 2025-09-07 12:24:15,031 - MENSAGEM: [user2] dfsdf
+[Node2] 2025-09-07 12:24:43,716 - LOGIN: user2
+[Node2] 2025-09-07 12:24:48,446 - LOGIN: admin
+[Node2] 2025-09-07 12:24:48,450 - LOGIN OK: admin
+[Node2] 2025-09-07 12:24:54,517 - MENSAGEM: [admin] dfsf
+[Node2] 2025-09-07 12:25:00,388 - MENSAGEM: [admin] fsdf
+[Node2] 2025-09-07 12:25:12,163 - SYNC: 1 mensagens recebidas
+[Node2] 2025-09-07 12:25:35,755 - MENSAGEM: [admin] sdfsdf
+[Node2] 2025-09-07 12:25:57,980 - MENSAGEM: [admin] asdsd
+[Node2] 2025-09-07 12:25:58,034 - MENSAGEM: [admin] asdsd
+[Node2] 2025-09-07 12:26:03,350 - MENSAGEM: [admin] dgsdf
