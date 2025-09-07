@@ -1,0 +1,469 @@
+[Node2] 2025-09-06 13:06:29,167 - INFO - SERVIDOR INICIADO: Node2 servidor TCP na porta 8002
+[Node2] 2025-09-06 13:06:29,170 - INFO - SERVIDOR HTTP: Interface web na porta 9002
+[Node2] 2025-09-06 13:10:53,468 - INFO - SERVIDOR PARADO: Node2 encerrado
+[Node2] 2025-09-06 13:11:03,475 - INFO - SERVIDOR INICIADO: Node2 servidor TCP na porta 8002
+[Node2] 2025-09-06 13:11:03,480 - INFO - SERVIDOR HTTP: Interface web na porta 9002
+[Node2] 2025-09-06 13:12:17,619 - INFO - TENTATIVA DE LOGIN: admin
+[Node2] 2025-09-06 13:12:17,624 - WARNING - LOGIN NEGADO: admin já conectado em Node1
+[Node2] 2025-09-06 13:12:17,626 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 13:12:17,628 - INFO - TENTATIVA DE LOGIN: admin
+[Node2] 2025-09-06 13:12:17,640 - WARNING - LOGIN NEGADO: admin já conectado em Node1
+[Node2] 2025-09-06 13:12:37,644 - INFO - TENTATIVA DE LOGIN: user1
+[Node2] 2025-09-06 13:12:37,654 - INFO - NÓ ATIVADO: Node2 ativado por user1
+[Node2] 2025-09-06 13:12:37,656 - INFO - SYNC PERIÓDICO: Iniciando sincronização periódica
+[Node2] 2025-09-06 13:12:37,657 - INFO - LOGIN APROVADO: user1 (Token: ce44319b...)
+[Node2] 2025-09-06 13:12:38,032 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 13:12:42,426 - INFO - MENSAGEM RECEBIDA: [admin] 'a' (ID: 1757175098501989)
+[Node2] 2025-09-06 13:12:42,426 - INFO - MENSAGEM RECEBIDA: [admin] 'asfasfasf' (ID: 1757175103716311)
+[Node2] 2025-09-06 13:12:42,427 - INFO - MENSAGEM RECEBIDA: [admin] 'dfdsafasf' (ID: 1757175107614786)
+[Node2] 2025-09-06 13:12:42,428 - INFO - SYNC REALIZADO: 3 novas mensagens recebidas
+[Node2] 2025-09-06 13:12:47,665 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user1
+[Node2] 2025-09-06 13:12:47,852 - INFO - REPLICAÇÃO: Encontrados 1 nós ativos
+[Node2] 2025-09-06 13:12:47,857 - INFO - ENVIANDO PARA: Node1 na porta 8001
+[Node2] 2025-09-06 13:12:47,877 - INFO - ENVIO SUCESSO: Para Node1
+[Node2] 2025-09-06 13:12:48,391 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem enviada com sucesso, todos receberam
+[Node2] 2025-09-06 13:12:48,393 - INFO - LEITURA AUTENTICADA: 4 mensagens enviadas para user1
+[Node2] 2025-09-06 13:12:57,678 - INFO - LEITURA AUTENTICADA: 4 mensagens enviadas para user1
+[Node2] 2025-09-06 13:12:57,722 - INFO - REPLICAÇÃO: Encontrados 1 nós ativos
+[Node2] 2025-09-06 13:12:57,729 - INFO - ENVIANDO PARA: Node1 na porta 8001
+[Node2] 2025-09-06 13:12:57,739 - INFO - ENVIO SUCESSO: Para Node1
+[Node2] 2025-09-06 13:12:58,246 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem enviada com sucesso, todos receberam
+[Node2] 2025-09-06 13:12:58,250 - INFO - LEITURA AUTENTICADA: 5 mensagens enviadas para user1
+[Node2] 2025-09-06 13:13:07,695 - INFO - LEITURA AUTENTICADA: 5 mensagens enviadas para user1
+[Node2] 2025-09-06 13:13:07,699 - INFO - LOGOUT: user1 desconectando do Node2
+[Node2] 2025-09-06 13:13:07,705 - INFO - NÓ DESATIVADO: Node2 desativado (logout user1)
+[Node2] 2025-09-06 13:13:07,905 - INFO - SYNC PERIÓDICO: Encerrado
+[Node2] 2025-09-06 13:13:08,023 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 13:13:08,368 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 13:13:08,689 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 13:13:08,949 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 13:13:17,704 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 13:13:18,045 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 13:13:27,715 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 13:13:28,042 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 13:13:38,365 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 13:13:41,835 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 13:13:45,978 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 13:14:13,265 - INFO - SERVIDOR PARADO: Node2 encerrado
+[Node2] 2025-09-06 13:14:40,269 - INFO - SERVIDOR INICIADO: Node2 servidor TCP na porta 8002
+[Node2] 2025-09-06 13:14:40,273 - INFO - SERVIDOR HTTP: Interface web na porta 9002
+[Node2] 2025-09-06 13:15:00,919 - INFO - TENTATIVA DE LOGIN: user1
+[Node2] 2025-09-06 13:15:00,923 - INFO - NÓ ATIVADO: Node2 ativado por user1
+[Node2] 2025-09-06 13:15:00,924 - INFO - SYNC PERIÓDICO: Iniciando sincronização periódica
+[Node2] 2025-09-06 13:15:00,924 - INFO - LOGIN APROVADO: user1 (Token: ce44319b...)
+[Node2] 2025-09-06 13:15:01,526 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:02,217 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:03,188 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:04,331 - INFO - REPLICAÇÃO: Nenhum nó ativo encontrado
+[Node2] 2025-09-06 13:15:04,333 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem enviada e não recebida, não encontrei nenhum outro nó ativo
+[Node2] 2025-09-06 13:15:04,662 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:06,184 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:10,402 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:12,831 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:15,705 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:17,878 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:21,200 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:24,826 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:28,265 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:30,820 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:34,399 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:36,827 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:40,160 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:42,829 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:46,410 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:48,917 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:50,770 - INFO - MENSAGEM RECEBIDA: [test] 'dfggsfdg' (ID: 1757175350715419)
+[Node2] 2025-09-06 13:15:50,771 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 13:15:58,351 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:58,686 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:15:59,007 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:00,824 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:08,281 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:08,606 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:17,978 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:18,303 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:18,641 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:19,139 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:28,412 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:28,735 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:29,001 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:30,833 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:34,408 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:36,833 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:48,449 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:48,772 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:49,027 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:49,101 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:58,467 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:16:58,788 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:08,491 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:08,804 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:18,517 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:18,831 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:28,541 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:28,879 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:33,867 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:34,179 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:38,566 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:38,897 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:48,585 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:48,913 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:49,242 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:49,562 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:49,874 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:50,200 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:50,525 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:50,856 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:51,832 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:55,409 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:17:57,834 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:03,936 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:04,197 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:07,148 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:10,411 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:12,833 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:16,142 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:19,138 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:22,410 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:24,830 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:28,195 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:30,828 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:34,400 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:37,137 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:40,408 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:42,819 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:46,131 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:49,138 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:52,403 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:55,129 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:18:58,138 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:03,733 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:04,342 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:07,153 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:10,397 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:12,834 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:16,129 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:19,142 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:22,403 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:24,836 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:28,131 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:31,138 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:34,129 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:37,135 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:40,132 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:42,835 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:46,149 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:48,832 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:52,144 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:55,149 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:19:58,154 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:20:00,836 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:20:04,400 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:20:13,843 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:20:14,173 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:20:14,494 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:20:15,832 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:20:19,143 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:20:22,395 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:20:59,431 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:21:59,442 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:22:59,414 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:23:59,416 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user1
+[Node2] 2025-09-06 13:39:46,121 - INFO - SERVIDOR PARADO: Node2 encerrado
+[Node2] 2025-09-06 13:39:48,433 - INFO - SERVIDOR INICIADO: Node2 servidor TCP na porta 8002
+[Node2] 2025-09-06 13:39:48,438 - INFO - SERVIDOR HTTP: Interface web na porta 9002
+[Node2] 2025-09-06 13:40:11,766 - INFO - TENTATIVA DE LOGIN: user2
+[Node2] 2025-09-06 13:40:11,770 - INFO - NÓ ATIVADO: Node2 ativado por user2
+[Node2] 2025-09-06 13:40:11,771 - INFO - SYNC PERIÓDICO: Iniciando sincronização periódica
+[Node2] 2025-09-06 13:40:11,772 - INFO - LOGIN APROVADO: user2 (Token: 597acfb9...)
+[Node2] 2025-09-06 13:40:12,119 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 13:40:18,479 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 13:40:24,152 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 13:40:28,178 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 13:40:33,418 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 13:40:38,380 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 13:40:43,467 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 13:40:48,367 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 13:40:53,464 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 13:40:59,164 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 13:41:03,830 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 13:41:08,835 - INFO - SERVIDOR PARADO: Node2 encerrado
+[Node2] 2025-09-06 13:41:15,974 - INFO - SYNC PERIÓDICO: Encerrado
+[Node2] 2025-09-06 13:56:00,159 - INFO - SERVIDOR INICIADO: Node2 servidor TCP na porta 8002
+[Node2] 2025-09-06 13:56:00,164 - INFO - SERVIDOR HTTP: Interface web na porta 9002
+[Node2] 2025-09-06 13:56:00,631 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 13:56:03,371 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 13:56:36,259 - INFO - SERVIDOR PARADO: Node2 encerrado
+[Node2] 2025-09-06 13:56:51,759 - INFO - SERVIDOR INICIADO: Node2 servidor TCP na porta 8002
+[Node2] 2025-09-06 13:56:51,760 - INFO - SERVIDOR HTTP: Interface web na porta 9002
+[Node2] 2025-09-06 13:59:11,753 - INFO - SERVIDOR PARADO: Node2 encerrado
+[Node2] 2025-09-06 13:59:23,820 - INFO - SERVIDOR INICIADO: Node2 servidor TCP na porta 8002
+[Node2] 2025-09-06 13:59:23,821 - INFO - SERVIDOR HTTP: Interface web na porta 9002
+[Node2] 2025-09-06 14:06:26,455 - INFO - SERVIDOR PARADO: Node2 encerrado
+[Node2] 2025-09-06 14:06:34,826 - INFO - SERVIDOR INICIADO: Node2 servidor TCP na porta 8002
+[Node2] 2025-09-06 14:06:34,838 - INFO - SERVIDOR HTTP: Interface web na porta 9002
+[Node2] 2025-09-06 14:07:32,639 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:08:21,456 - INFO - TENTATIVA DE LOGIN: user2
+[Node2] 2025-09-06 14:08:21,462 - INFO - NÓ ATIVADO: Node2 ativado por user2
+[Node2] 2025-09-06 14:08:21,465 - INFO - SYNC PERIÓDICO: Iniciando sincronização periódica
+[Node2] 2025-09-06 14:08:21,465 - INFO - LOGIN APROVADO: user2 (Token: 597acfb9...)
+[Node2] 2025-09-06 14:08:22,058 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:08:27,642 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:08:33,138 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:08:38,133 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:08:43,238 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:08:48,145 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:08:51,087 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:08:53,228 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:08:55,472 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:08:55,910 - WARNING - ENVIO NEGADO: Token inválido
+[Node2] 2025-09-06 14:08:58,131 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:08:58,936 - WARNING - ENVIO NEGADO: Token inválido
+[Node2] 2025-09-06 14:09:00,483 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:09:02,838 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:05,155 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:09:07,405 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:10,173 - INFO - REPLICAÇÃO: Encontrados 1 nós ativos
+[Node2] 2025-09-06 14:09:10,186 - INFO - ENVIANDO PARA: Node1 na porta 8001
+[Node2] 2025-09-06 14:09:10,193 - ERROR - ENVIO FALHADO: Para Node1
+[Node2] 2025-09-06 14:09:10,202 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem não foi entregue a nenhum nó
+[Node2] 2025-09-06 14:09:10,537 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:10,822 - INFO - LEITURA PÚBLICA: 1 mensagens públicas
+[Node2] 2025-09-06 14:09:12,074 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:15,829 - INFO - REPLICAÇÃO: Encontrados 1 nós ativos
+[Node2] 2025-09-06 14:09:15,837 - INFO - ENVIANDO PARA: Node1 na porta 8001
+[Node2] 2025-09-06 14:09:15,844 - ERROR - ENVIO FALHADO: Para Node1
+[Node2] 2025-09-06 14:09:15,853 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem não foi entregue a nenhum nó
+[Node2] 2025-09-06 14:09:16,186 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:09:16,510 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:17,384 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:21,141 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:09:22,387 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:23,489 - INFO - REPLICAÇÃO: Encontrados 1 nós ativos
+[Node2] 2025-09-06 14:09:23,495 - INFO - ENVIANDO PARA: Node1 na porta 8001
+[Node2] 2025-09-06 14:09:23,502 - ERROR - ENVIO FALHADO: Para Node1
+[Node2] 2025-09-06 14:09:23,507 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem não foi entregue a nenhum nó
+[Node2] 2025-09-06 14:09:23,582 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:25,825 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:09:27,081 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:31,167 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:09:32,077 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:35,832 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:09:38,400 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:40,832 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:09:42,077 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:46,397 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:09:47,409 - WARNING - SIMULAÇÃO OFFLINE: Node2 iniciou simulação de falha
+[Node2] 2025-09-06 14:09:48,141 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:50,160 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:09:52,651 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:53,907 - INFO - SIMULAÇÃO ONLINE: Node2 restaurou conexão
+[Node2] 2025-09-06 14:09:53,908 - INFO - MENSAGENS PERDIDAS: 3 mensagens durante offline
+[Node2] 2025-09-06 14:09:55,826 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:09:57,088 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user2
+[Node2] 2025-09-06 14:09:59,303 - INFO - REPLICAÇÃO: Encontrados 1 nós ativos
+[Node2] 2025-09-06 14:09:59,313 - INFO - ENVIANDO PARA: Node1 na porta 8001
+[Node2] 2025-09-06 14:09:59,319 - ERROR - ENVIO FALHADO: Para Node1
+[Node2] 2025-09-06 14:09:59,323 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem não foi entregue a nenhum nó
+[Node2] 2025-09-06 14:09:59,926 - INFO - LEITURA AUTENTICADA: 4 mensagens enviadas para user2
+[Node2] 2025-09-06 14:10:00,830 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:10:02,829 - INFO - LEITURA AUTENTICADA: 4 mensagens enviadas para user2
+[Node2] 2025-09-06 14:10:04,492 - WARNING - SIMULAÇÃO OFFLINE: Node2 iniciou simulação de falha
+[Node2] 2025-09-06 14:10:05,469 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:10:08,141 - INFO - LEITURA AUTENTICADA: 4 mensagens enviadas para user2
+[Node2] 2025-09-06 14:10:08,738 - INFO - SIMULAÇÃO ONLINE: Node2 restaurou conexão
+[Node2] 2025-09-06 14:10:08,739 - INFO - MENSAGENS PERDIDAS: 1 mensagens durante offline
+[Node2] 2025-09-06 14:10:10,468 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:10:12,093 - WARNING - SIMULAÇÃO OFFLINE: Node2 iniciou simulação de falha
+[Node2] 2025-09-06 14:10:12,399 - INFO - LEITURA AUTENTICADA: 4 mensagens enviadas para user2
+[Node2] 2025-09-06 14:10:14,943 - INFO - LEITURA AUTENTICADA: 4 mensagens enviadas para user2
+[Node2] 2025-09-06 14:10:15,828 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:10:17,074 - INFO - LEITURA AUTENTICADA: 4 mensagens enviadas para user2
+[Node2] 2025-09-06 14:10:21,141 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:10:26,410 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:10:31,137 - INFO - LEITURA PÚBLICA: 2 mensagens públicas
+[Node2] 2025-09-06 14:20:22,975 - INFO - SERVIDOR PARADO: Node2 encerrado
+[Node2] 2025-09-06 14:20:26,667 - INFO - SERVIDOR INICIADO: Node2 servidor TCP na porta 8002
+[Node2] 2025-09-06 14:20:26,670 - INFO - SERVIDOR HTTP: Interface web na porta 9002
+[Node2] 2025-09-06 14:21:13,067 - INFO - TENTATIVA DE LOGIN: user2
+[Node2] 2025-09-06 14:21:13,072 - INFO - NÓ ATIVADO: Node2 ativado por user2
+[Node2] 2025-09-06 14:21:13,073 - INFO - LOGIN APROVADO: user2 (Token: 597acfb9...)
+[Node2] 2025-09-06 14:21:13,409 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:21:19,128 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:21:24,829 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:21:29,836 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:21:38,842 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:21:41,829 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:21:44,835 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:21:50,148 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user2
+[Node2] 2025-09-06 14:21:50,314 - INFO - MENSAGEM RECEBIDA: [test] 'hkçioiu' (ID: 1757179310185472)
+[Node2] 2025-09-06 14:21:50,314 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 14:21:54,428 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user2
+[Node2] 2025-09-06 14:21:56,712 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem enviada com sucesso, todos receberam
+[Node2] 2025-09-06 14:21:57,062 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user2
+[Node2] 2025-09-06 14:21:59,842 - INFO - LEITURA AUTENTICADA: 2 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:01,188 - INFO - MENSAGEM RECEBIDA: [user1] 'asdsagfahds' (ID: 1757179321143212)
+[Node2] 2025-09-06 14:22:01,188 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 14:22:04,850 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:05,098 - INFO - MENSAGEM RECEBIDA: [user1] 'sadfasf' (ID: 1757179325069708)
+[Node2] 2025-09-06 14:22:05,098 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 14:22:08,982 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem enviada com sucesso, todos receberam
+[Node2] 2025-09-06 14:22:09,324 - INFO - LEITURA AUTENTICADA: 5 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:09,649 - INFO - LEITURA AUTENTICADA: 5 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:14,435 - INFO - MENSAGEM RECEBIDA: [test] 'hdfghdfh' (ID: 1757179334424157)
+[Node2] 2025-09-06 14:22:14,436 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 14:22:15,136 - INFO - LEITURA AUTENTICADA: 6 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:16,247 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem enviada com sucesso, todos receberam
+[Node2] 2025-09-06 14:22:16,597 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:19,421 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:28,170 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:28,176 - WARNING - SIMULAÇÃO OFFLINE: Node2 iniciou simulação de falha
+[Node2] 2025-09-06 14:22:29,104 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:34,835 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:39,823 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:44,859 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:50,133 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:57,835 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:22:59,432 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:04,585 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:04,617 - INFO - SIMULAÇÃO ONLINE: Node2 restaurou conexão
+[Node2] 2025-09-06 14:23:04,622 - INFO - MENSAGENS PERDIDAS: 7 mensagens durante offline
+[Node2] 2025-09-06 14:23:04,640 - WARNING - SIMULAÇÃO OFFLINE: Node2 iniciou simulação de falha
+[Node2] 2025-09-06 14:23:04,692 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:04,908 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:07,761 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:08,728 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:09,109 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:13,115 - INFO - SIMULAÇÃO ONLINE: Node2 restaurou conexão
+[Node2] 2025-09-06 14:23:14,112 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:15,645 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:19,419 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:21,807 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:27,810 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:29,429 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:34,093 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:34,416 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:37,419 - INFO - MENSAGEM RECEBIDA: [test] 'hh' (ID: 1757179417390095)
+[Node2] 2025-09-06 14:23:37,420 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 14:23:40,158 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:45,608 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:54,862 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:54,863 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:23:59,915 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:24:04,832 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:24:09,975 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:24:14,836 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:24:19,840 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:24:29,039 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:24:30,489 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:24:34,826 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:24:40,148 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:24:44,833 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:24:58,843 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:25:59,152 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:26:59,163 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:27:59,191 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:28:59,188 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user2
+[Node2] 2025-09-06 14:29:39,123 - INFO - SERVIDOR PARADO: Node2 encerrado
+[Node2] 2025-09-06 14:29:51,514 - INFO - SERVIDOR INICIADO: Node2 servidor TCP na porta 8002
+[Node2] 2025-09-06 14:29:51,516 - INFO - SERVIDOR HTTP: Interface web na porta 9002
+[Node2] 2025-09-06 14:29:59,507 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:30:19,772 - INFO - TENTATIVA DE LOGIN: user1
+[Node2] 2025-09-06 14:30:19,778 - INFO - NÓ ATIVADO: Node2 ativado por user1
+[Node2] 2025-09-06 14:30:19,778 - INFO - LOGIN APROVADO: user1 (Token: ce44319b...)
+[Node2] 2025-09-06 14:30:20,368 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 14:30:35,249 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 14:30:40,362 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 14:30:44,763 - INFO - MENSAGEM RECEBIDA: [test] 'asdasdasdasd' (ID: 1757179844663293)
+[Node2] 2025-09-06 14:30:44,765 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 14:30:45,254 - INFO - LEITURA AUTENTICADA: 1 mensagens enviadas para user1
+[Node2] 2025-09-06 14:30:50,066 - INFO - MENSAGEM RECEBIDA: [test] 'sdgsdgsd' (ID: 1757179850020659)
+[Node2] 2025-09-06 14:30:50,068 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 14:30:54,074 - INFO - MENSAGEM RECEBIDA: [test] 'ASDASD' (ID: 1757179854038916)
+[Node2] 2025-09-06 14:30:54,075 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 14:30:54,677 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user1
+[Node2] 2025-09-06 14:30:55,450 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:00,904 - INFO - LEITURA AUTENTICADA: 3 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:01,549 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem enviada com sucesso, todos receberam
+[Node2] 2025-09-06 14:31:01,895 - INFO - LEITURA AUTENTICADA: 4 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:02,265 - INFO - MENSAGEM RECEBIDA: [user2] 'sdfsdf' (ID: 1757179862194992)
+[Node2] 2025-09-06 14:31:02,265 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 14:31:04,651 - INFO - LEITURA AUTENTICADA: 5 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:12,186 - INFO - LEITURA AUTENTICADA: 5 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:15,130 - INFO - LEITURA AUTENTICADA: 5 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:18,896 - INFO - MENSAGEM RECEBIDA: [test] 'dfsdfsdf' (ID: 1757179878831073)
+[Node2] 2025-09-06 14:31:18,897 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 14:31:22,351 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem enviada, recebida por test(8003)
+[Node2] 2025-09-06 14:31:22,353 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:24,711 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:25,048 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:29,955 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:35,351 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:39,950 - INFO - LEITURA AUTENTICADA: 7 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:40,017 - INFO - REPLICAÇÃO CONCLUÍDA: Mensagem enviada, recebida por test(8003)
+[Node2] 2025-09-06 14:31:40,357 - INFO - LEITURA AUTENTICADA: 8 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:43,920 - INFO - MENSAGEM RECEBIDA: [test] 'dfsdf' (ID: 1757179903840556)
+[Node2] 2025-09-06 14:31:43,921 - INFO - SYNC REALIZADO: 1 novas mensagens recebidas
+[Node2] 2025-09-06 14:31:45,342 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:49,831 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:55,382 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:31:59,832 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:11,839 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:11,842 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:15,436 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:21,830 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:25,462 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:30,490 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:35,105 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:37,833 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:40,131 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:45,423 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:51,847 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:32:55,410 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:33:00,132 - INFO - LEITURA AUTENTICADA: 9 mensagens enviadas para user1
+[Node2] 2025-09-06 14:33:11,357 - INFO - SERVIDOR INICIADO: Node2 servidor TCP na porta 8002
+[Node2] 2025-09-06 14:33:11,359 - INFO - SERVIDOR HTTP: Interface web na porta 9002
+[Node2] 2025-09-06 14:33:11,524 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:33:15,447 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:33:19,837 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:33:25,496 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:33:29,847 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:33:37,171 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:33:37,223 - WARNING - LOGOUT NEGADO: Token inválido
+[Node2] 2025-09-06 14:33:55,008 - INFO - TENTATIVA DE LOGIN: user1
+[Node2] 2025-09-06 14:33:55,013 - INFO - NÓ ATIVADO: Node2 ativado por user1
+[Node2] 2025-09-06 14:33:55,015 - INFO - LOGIN APROVADO: user1 (Token: ce44319b...)
+[Node2] 2025-09-06 14:33:55,365 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 14:34:06,838 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 14:34:11,820 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 14:34:12,877 - WARNING - SIMULAÇÃO OFFLINE: Node2 iniciou simulação de falha
+[Node2] 2025-09-06 14:34:16,820 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 14:34:22,134 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 14:34:22,469 - INFO - SIMULAÇÃO ONLINE: Node2 restaurou conexão
+[Node2] 2025-09-06 14:34:29,843 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 14:34:31,823 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 14:34:35,839 - INFO - LEITURA AUTENTICADA: 0 mensagens enviadas para user1
+[Node2] 2025-09-06 14:34:39,944 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 14:34:54,491 - INFO - LEITURA PÚBLICA: 0 mensagens públicas
+[Node2] 2025-09-06 17:53:53,115 - INICIANDO: Node2 na porta 8002
+[Node2] 2025-09-06 17:54:44,786 - LOGIN: user2
+[Node2] 2025-09-06 17:54:44,791 - LOGIN OK: user2
+[Node2] 2025-09-06 17:54:50,907 - SIMULAÇÃO: Falha ativada
+[Node2] 2025-09-06 17:54:59,839 - SIMULAÇÃO: Falha desativada
+[Node2] 2025-09-06 17:54:59,840 - RECONECTANDO: Buscando mensagens perdidas...
+[Node2] 2025-09-06 17:54:59,850 - SIMULAÇÃO: Falha ativada
+[Node2] 2025-09-06 17:54:59,904 - SIMULAÇÃO: Falha desativada
+[Node2] 2025-09-06 17:54:59,904 - RECONECTANDO: Buscando mensagens perdidas...
+[Node2] 2025-09-06 17:55:00,139 - SIMULAÇÃO: Falha ativada
+[Node2] 2025-09-06 17:55:15,864 - SIMULAÇÃO: Falha desativada
+[Node2] 2025-09-06 17:55:15,864 - RECONECTANDO: Buscando mensagens perdidas...
+[Node2] 2025-09-06 17:55:15,887 - RECUPERADO: 1 mensagens
+[Node2] 2025-09-06 17:55:25,210 - SYNC: 1 mensagens recebidas
+[Node2] 2025-09-06 17:55:30,337 - SIMULAÇÃO: Falha ativada
+[Node2] 2025-09-06 17:55:44,340 - SIMULAÇÃO: Falha desativada
+[Node2] 2025-09-06 17:55:44,340 - RECONECTANDO: Buscando mensagens perdidas...
+[Node2] 2025-09-06 17:56:11,478 - SIMULAÇÃO: Falha ativada
+[Node2] 2025-09-06 17:56:26,190 - SIMULAÇÃO: Falha desativada
+[Node2] 2025-09-06 17:56:26,190 - RECONECTANDO: Buscando mensagens perdidas...
+[Node2] 2025-09-06 17:56:26,197 - RECUPERADO: 1 mensagens
+[Node2] 2025-09-06 17:59:42,179 - PARADO: Node2

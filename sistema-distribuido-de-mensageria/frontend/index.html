@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Mensagens Distribuídas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">🎯 Sistema de Mensagens Distribuídas</h1>
+        
+        <!-- Status dos Nós -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h3>📊 Status dos Nós</h3>
+                <div class="row" id="nodeStatus">
+                    <!-- Status será carregado aqui -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Login -->
+        <div class="row mb-4" id="loginSection">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">🔐 Login</div>
+                    <div class="card-body">
+                        <form id="loginForm">
+                            <div class="mb-3">
+                                <label class="form-label">Usuário</label>
+                                <select class="form-select" id="username" required>
+                                    <option value="">Selecione...</option>
+                                    <option value="admin">admin</option>
+                                    <option value="user1">user1</option>
+                                    <option value="user2">user2</option>
+                                    <option value="test">test</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Senha</label>
+                                <input type="password" class="form-control" id="password" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Nó</label>
+                                <select class="form-select" id="nodePort" required>
+                                    <option value="">Selecione...</option>
+                                    <option value="8001">Node1 (8001)</option>
+                                    <option value="8002">Node2 (8002)</option>
+                                    <option value="8003">Node3 (8003)</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Fazer Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Leitura Pública -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">🌐 Leitura Pública</div>
+                    <div class="card-body">
+                        <p>Leia mensagens públicas sem fazer login:</p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-outline-info" onclick="readPublic(8001)">📡 Node1 (8001)</button>
+                            <button class="btn btn-outline-info" onclick="readPublic(8002)">📡 Node2 (8002)</button>
+                            <button class="btn btn-outline-info" onclick="readPublic(8003)">📡 Node3 (8003)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Área Logada -->
+        <div class="row" id="loggedSection" style="display: none;">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span>💬 Chat</span>
+                        <span id="currentUser" class="badge bg-primary"></span>
+                    </div>
+                    <div class="card-body">
+                        <div class="chat-container border p-3 mb-3" id="chatContainer">
+                            <div class="text-center text-muted">📭 Carregando mensagens...</div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="messageInput" placeholder="Digite sua mensagem..." maxlength="500">
+                            <button class="btn btn-success" onclick="sendMessage('public')">🌐 Público</button>
+                            <button class="btn btn-warning" onclick="sendMessage('private')">🔒 Privado</button>
+                        </div>
+                        <div class="alert alert-info py-2">
+                            <small>
+                                <strong>🌐 Mensagens públicas:</strong> Visíveis para todos, mesmo sem login<br>
+                                <strong>🔒 Mensagens privadas:</strong> Apenas para usuários logados
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">⚙️ Controles</div>
+                    <div class="card-body d-grid gap-2">
+                        <button class="btn btn-primary btn-sm" onclick="refreshMessages()">🔄 Atualizar Chat</button>
+                        <button class="btn btn-warning btn-sm" onclick="toggleOffline()" id="offlineBtn">⚠️ Simular Falha</button>
+                        <button class="btn btn-info btn-sm" onclick="showHelp()">❓ Ajuda</button>
+                        <button class="btn btn-danger btn-sm" onclick="logout()">🚪 Logout</button>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-header">👥 Usuários Online</div>
+                    <div class="card-body" id="onlineUsers">
+                        <div class="text-center">
+                            <div class="spinner-border spinner-border-sm" role="status">
+                                <span class="visually-hidden">Carregando...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-header">📊 Estatísticas</div>
+                    <div class="card-body">
+                        <small>
+                            <div>Mensagens enviadas: <span id="sentCount" class="badge bg-success">0</span></div>
+                            <div>Última atualização: <span id="lastUpdate" class="text-muted">--:--</span></div>
+                            <div>Status: <span id="connectionStatus" class="badge bg-secondary">Conectando...</span></div>
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Ajuda -->
+    <div class="modal fade" id="helpModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">❓ Sistema de Mensagens Distribuídas - Guia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>🔐 Autenticação</h6>
+                            <ul class="small">
+                                <li><strong>Usuários disponíveis:</strong> admin, user1, user2, test</li>
+                                <li><strong>Senhas:</strong> Preenchidas automaticamente</li>
+                                <li><strong>Múltiplos logins:</strong> Cada usuário só pode estar em um nó</li>
+                                <li><strong>Nós:</strong> Node1 (8001), Node2 (8002), Node3 (8003)</li>
+                            </ul>
+                            
+                            <h6>💬 Sistema de Mensagens</h6>
+                            <ul class="small">
+                                <li><strong>🌐 Públicas:</strong> Todos podem ler (mesmo visitantes)</li>
+                                <li><strong>🔒 Privadas:</strong> Apenas usuários logados</li>
+                                <li><strong>Replicação:</strong> Automática entre nós ativos</li>
+                                <li><strong>Persistência:</strong> Durante execução do sistema</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>⚙️ Funcionalidades Avançadas</h6>
+                            <ul class="small">
+                                <li><strong>Simular Falha:</strong> Testa resistência a falhas</li>
+                                <li><strong>Auto-refresh:</strong> Atualização automática a cada 5s</li>
+                                <li><strong>Consistência eventual:</strong> Mensagens sincronizam</li>
+                                <li><strong>Relatórios de entrega:</strong> Status detalhado</li>
+                            </ul>
+                            
+                            <h6>🎯 Casos de Teste</h6>
+                            <ul class="small">
+                                <li>Login simultâneo em nós diferentes</li>
+                                <li>Envio com nós offline</li>
+                                <li>Recuperação após falha simulada</li>
+                                <li>Leitura pública vs. privada</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="alert alert-primary mt-3">
+                        <strong>💡 Dica:</strong> Use Enter para envio rápido de mensagens públicas!
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container position-fixed top-0 end-0 p-3" id="toastContainer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
